@@ -1,0 +1,30 @@
+{
+  "name": "@jasonhk/eslint-config-types",
+  "description": "A type declaration file for building type guard of ESLint rule set.",
+  "license": "Unlicense",
+  "version": "1.0.0",
+  "author": "Jason Kwok <me@jasonhk.net> (https://github.com/JasonHK)",
+  "homepage": "https://github.com/JasonHK/eslint-configs#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonHK/eslint-configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JasonHK/eslint-configs/issues"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "npx tsd",
+    "prepublishOnly": "npm run test"
+  },
+  "dependencies": {
+    "@types/eslint": "^4.16.8"
+  },
+  "devDependencies": {
+    "tsd": "^0.7.4"
+  }
+}
